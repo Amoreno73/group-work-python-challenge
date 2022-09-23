@@ -46,5 +46,8 @@ print(" ")
 reverseText = splitText[::-1]
 print(" ".join(reverseText))
 # ============task 5=============================
+pythonBool = 'python' in splitText
+print(" ")
+print('Is the word python in the normal text? ' + str(pythonBool))
 
 
