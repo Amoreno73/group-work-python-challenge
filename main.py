@@ -16,7 +16,7 @@
 # 5. The system will tell us if the word “python” is inside the text. This part can be a bit complicated to imagine, but I'll give you a hint: you can use Booleans to make your enquiry and a dictionary to find ways to express your answer.
 # -=-=-=-=-=-=-=-
 # This is the text I will be using:
-# Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+# Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 # =-=-=-=-=-=-=-=-=-
 userText = input("Enter any amount of text: ")
 lowerText = userText.lower()
@@ -37,3 +37,6 @@ print(" ")
 splitText = lowerText.split()
 print("This is the total amount of words in the user input text: " + str(len(splitText)))
 # ============task 3=============================
+print("The first letter of the text is " + str(lowerText[0]))
+print("The last letter of the text is " + str(lowerText[-1]))
+
