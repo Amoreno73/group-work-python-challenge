@@ -14,4 +14,23 @@
 # 4. The system will show us how the text would look like if we inverted the order of the words. Is there any method that allows us to invert the order of a list? And another one that allows us to join these elements with spaces in between?
 
 # 5. The system will tell us if the word “python” is inside the text. This part can be a bit complicated to imagine, but I'll give you a hint: you can use Booleans to make your enquiry and a dictionary to find ways to express your answer.
+# -=-=-=-=-=-=-=-
+# This is the text I will be using:
+# Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# =-=-=-=-=-=-=-=-=-
+userText = input("Enter any amount of text: ")
+# this will turn the user text into small letters so it does not mess up count
+userText.lower()
+print(userText)
+enterLetters = input("Enter any three letters: ") 
+threeLetters = list(enterLetters)
+print(threeLetters)
+# ===================================================
+print(userText.count(threeLetters[0]))
+print(userText.count(threeLetters[1]))
+print(userText.count(threeLetters[2]))
 
+
+
+
+print(userText)
