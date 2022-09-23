@@ -20,12 +20,20 @@
 # =-=-=-=-=-=-=-=-=-
 userText = input("Enter any amount of text: ")
 lowerText = userText.lower()
+print(" ")
 print("*This is the lowercase version of the text* " + lowerText)
+print(" ")
 enterLetters = input("Enter any three letters: ") 
 threeLetters = list(enterLetters)
 print(threeLetters)
-# ============task 1==============================
+# ============task 1=============================
 print("The first letter appeared " + str(lowerText.count(threeLetters[0])) + " times.")
 print("The second letter appeared " + str(lowerText.count(threeLetters[1])) + " times.")
 print("The third letter appeared " + str(lowerText.count(threeLetters[2])) + " times.")
 # ============task 2=============================
+print(" ")
+print("The user input will now be split.")
+print(" ")
+splitText = lowerText.split()
+print("This is the total amount of words in the user input text: " + str(len(splitText)))
+# ============task 3=============================
